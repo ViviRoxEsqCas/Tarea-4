@@ -1,0 +1,123 @@
+
+
+body{
+    background-color: #352b31;
+    color: #ebf0c5;
+}
+.ubuntu-mono-regular {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+.josefin-sans-uniquifier {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+h2{
+    font-size: 20px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.row{
+    height: 25px;
+}
+.nav-underline {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: #ebf0c5; 
+}
+
+.a .carousel-item img {
+    max-width: 400px;
+    height: auto; 
+    margin: 0 auto; 
+}
+.a .carousel-inner{
+    display: flex;
+    align-items: center;
+    height: 350px;
+    background-color: #352b31;
+}
+.a .carousel-item {
+    transition: transform 4s ease;
+}
+
+.a .carousel-inner {
+    overflow: hidden; 
+}
+
+.accordion {
+    margin-top: 10px;
+}
+
+
+.accordion-item {
+    border-bottom: 1px solid #352b31; /
+}
+
+.accordion-header {
+    background-color: #685c58; 
+}
+
+.accordion-button {
+    justify-content: center;
+    display: flex;
+    background-color: #685c58;
+    color: #ebf0c5; 
+    font-weight: bold; 
+}
+
+.accordion-body {
+    padding: 15px; 
+}
+.nav-item a {
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    height: 40px;
+    width: 85px;
+    background: linear-gradient(0deg, #5affe64b, transparent);
+    transition: 0.5s;
+    filter: drop-shadow(0 7px 25px #94cc84);
+    overflow: hidden;
+    opacity: 0; 
+    transform: translateY(100%);
+}
+
+.nav-item a:hover::after {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+.nav-item a {
+    color: #ebf0c5; 
+    transition: color 0.3s ease-in-out; 
+}
+
+.nav-item a:hover {
+    color: #ebf0c5; 
+}

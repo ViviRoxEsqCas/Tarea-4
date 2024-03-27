@@ -1,0 +1,125 @@
+
+
+body{
+    background-color: #352b31;
+    color: #ebf0c5;
+}
+.ubuntu-mono-regular {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+.josefin-sans-uniquifier {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+h2{
+    font-size: 20px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.row{
+    height: 25px;
+}
+.nav-underline {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: #333; 
+}
+.nav-item a {
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+.nav-item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    height: 40px;
+    width: 85px;
+    background: linear-gradient(0deg, #5affe64b, transparent);
+    transition: 0.5s;
+    filter: drop-shadow(0 7px 25px #94cc84);
+    overflow: hidden;
+    opacity: 0; 
+    transform: translateY(100%);
+}
+.nav-item a:hover::after {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+.nav-item a {
+    color: #ebf0c5; 
+    transition: color 0.3s ease-in-out; 
+}
+
+.nav-item a:hover {
+    color: #ebf0c5; 
+}
+.contenedor {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .carousel {
+    position: relative;
+  }
+  
+  .card-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: transparent;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    max-width: 80%;
+    margin: 30px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+  }
+  
+  .card-title {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    color: #ebf0c5;
+  }
+  
+  .card-text {
+    margin-bottom: 1rem;
+    color: #ebf0c5;
+  }
+  
+  .text-body-secondary {
+    color: #ebf0c5;
+  }
+  
